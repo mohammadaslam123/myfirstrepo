@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> calculetAge</title>
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
 </head>
 <body>
-  <div class="container">
-<h1> Age calculator</h1>
-<div class="input- section">
-<label for="dob">Enter your Date of Birth</label>
-<input type="date" id="dob">
-<button onclick="calculetAge()">calculate</button>
-</div>
+    <div id="myElement" class="visible">sbdkbsadd</div>
+    <script src="script.js">
 
-<div class="output-Section">
-<p id="output"></p>
-</div>
-  </div>
-  <script src="StartJavaScript.js"></script>
+
+
+
+
+
+    </script>
+    <!-- <script>
+        let bank = [
+            { name: "John Doe", pin: 7860, balance: 100000 },
+            { name: "Jane Doe", pin: 9090, balance: 150000 },
+
+  ];
+
+        let enteredPin = +(prompt("Enter your 4-digit PIN:"));
+        let account = bank.find(account => account.pin === enteredPin);
+
+        if (account) {
+            let action = prompt("What would you like to do? (deposit/withdraw)").toLowerCase();
+            if (action === "deposit") {
+            let amount = +(prompt("Enter the amount you want to deposit:"));
+               if (!isNaN(amount) && amount > 0 ) {
+                    account.balance += amount;
+                    console.log(`Amount deposited. New balance: $${account.balance}`);
+                } else {
+                    console.log("Invalid amount. Please enter a positive number.");
+                }
+            } else if (action === "withdraw") {
+                let amount = +(prompt("Enter the amount you want to withdraw:"));
+                if (!isNaN(amount) && amount > 0) {
+                    if (account.balance >= amount) {
+                        account.balance -= amount;
+                        console.log(`Amount withdrawn. New balance: $${account.balance}`);
+                    } else {
+                        console.log(`Insufficient funds. Current balance: $${account.balance}`);
+                    }
+                } else {
+                    console.log("Invalid amount. Please enter a positive number.");
+                }
+            } else {
+                console.log("Invalid action. Please enter 'deposit' or 'withdraw'.");
+            }
+        } else {
+            console.log("Invalid PIN. Please try again.");
+
+        }
+    </script> -->
 </body>
 </html>
